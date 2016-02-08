@@ -1,0 +1,42 @@
+
+/* Apply font to body */
+body {
+font-family: 'Open Sans', sans-serif;
+
+}
+
+header , footer{
+background-color:#3A539B;
+color:white;
+}
+
+.trunc {
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+
+#i1 ,#i2 {
+display: block;
+ margin-left: auto;
+margin-right: auto 
+}
+.col-sm-8 .panel {padding-top:24px;}
+
+button{color:black;}
+h2 {color:#663399}
+
+h4 {text-align:center;color:#9A12B3;}
+
+h3 {color:white;)
+
+#right_footer {
+width:56%;
+max-width:56%;
+float:left;
+margin:8px;
+border:1px solid blue;
+padding-bottom:25px;
+padding-right:6px;
+}

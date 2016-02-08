@@ -1,0 +1,90 @@
+<html>
+<head>
+<title> Home Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<script src="https://cdn.firebase.com/js/client/2.4.0/firebase.js"></script>
+<link rel="stylesheet" href="../css/index.css"/>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Josefin Slab">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<script type="text/javascript" src="../js/validate.js"></script>
+<script type="text/javascript" src="../js/load_data.js"></script>
+
+</head>
+
+<body>
+  
+<header>
+  	<h1> SEARS HOLDINGS </h1>
+	<h1> INDIA </h1>
+</header>
+
+<section id="left">
+      <img src="../images/img2.jpg" id="i2">
+	   <p>Sears Holdings Corporation is an American holding company headquartered in Hoffman Estates, Illinois.
+	  It is the owner of retail store brands Sears and Kmart, and was founded after the latter purchased the 
+	  former in 2005.[2] Sears Holdings owns the brands Craftsman, Kenmore and DieHard. Sears Holdings operates 
+	  1,725[3] retail locations under the mastheads of Sears, Kmart, and their subsidiaries, such as auto centers
+	  and pharmacies.</p>
+
+	  <img src="../images/img1.jpg" id="i1">
+	  <p>Sears Holdings is the parent company of Kmart and Sears, Roebuck and Co. Sears Holdings Corporation is the 
+	  nation's fourth largest broadline retailer with approximately 4,000 full-line and specialty retail stores in the
+	  United States and Canada. Sears Holdings is the leading home appliance retailer as well as a leader in tools, 
+	  lawn and garden, home electronics and automotive repair and maintenance.  </p>
+    
+</section>
+ 
+<section id="right">
+   <h2> Latest News</h2>
+   <section class="news">
+       <div id="link1" class="trunc"></div>
+	   <a href="./second.html#link1">Read More</a>
+   </section> 
+ 
+	<section class="news">
+   <div id="link2" class="trunc"></div>    
+   <a href="./second.html#link2">Read More</a>
+   </section>
+ 
+   <section class="news">
+   <div id="link3" class="trunc"></div>
+   <a href="./second.html#link3">Read More</a>
+   </section>
+   
+   <section class="news">
+   <div id="link4" class="trunc"></div>
+   <a href="./second.html#link4">Read More</a>
+   </section> 
+</section>
+
+
+<footer>
+	<section id="left_footer">
+	<h3> SEARS IT and Management Services India</h3>
+	<p class="address"><i class="fa fa-map-marker"></i>&nbsp;&nbsp; EON Free Zone, Cluster C,<br>
+		Wing 2, 7th Floor,<br>MIDC Kharadi Knowledge Park,<br> Pune 411 014.</p>
+	<p class="address"><i class="fa fa-phone"></i>&nbsp;&nbsp; 020-67308500 <br>
+    <i class="fa fa-fax"></i>&nbsp;&nbsp; 020 67308700<br></p>
+	<p id="email"><i class="fa fa-envelope"></i>&nbsp;&nbsp; shi.communications@searshc.com</p>
+	 <p class="address">Please send your resumes to :<br>
+	 <i id="mail">SHIRecruitment@searshc.com</i></p>
+	</section>   
+
+	<section id="right_footer">
+		<h3> Contact Information</h3>
+		<form id="f1" onsubmit="return validate();" method="post">
+		
+		<label>Email: </label><br><input type="email" name="email" size="60" required/><br><br>
+		<label>Name: </label><br><input type="text" name="name" size="60" required/><br><br>
+		<label>Message: </label><br><textarea type="text1" name="text_box" rows="3" cols="62" required/></textarea><br><br>
+		<button type="submit" style="padding:10px;">Submit</button>
+	
+		<span id="demo"> </span>
+		<span id="demo1"> </span>
+		</form>
+		
+	</section>
+</footer>
+</body>
+</html>

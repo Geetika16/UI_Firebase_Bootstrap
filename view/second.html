@@ -1,0 +1,57 @@
+<html>
+<head>
+<title> Second Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<script src="https://cdn.firebase.com/js/client/2.4.0/firebase.js"></script>
+ <link rel="stylesheet" href="../css/index.css"/>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Josefin Slab">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<script type="text/javascript" src="../js/validate.js"></script>
+<script type="text/javascript" src="../js/load_news.js"></script>
+</head>
+<body>
+ <header class="text-center">
+    <h1> SEARS HOLDINGS </h1>
+	<h1> INDIA </h1>
+ </header>
+
+
+<div class="panel panel-default">
+			  <div class="panel-body">
+			   <div id="t"></div>
+			  </div>
+</div>
+ 
+<footer class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4 text-justify">
+	    <h3> SEARS IT and Management Services India</h3>
+	    <p class="address"><i class="fa fa-map-marker"></i>&nbsp;&nbsp; EON Free Zone, Cluster C,<br>
+	   Wing 2, 7th Floor,<br>MIDC Kharadi Knowledge Park,<br> Pune 411 014.
+	   </p>
+	   <p class="address"><i class="fa fa-phone"></i>&nbsp;&nbsp; 020-67308500 <br>
+	   <i class="fa fa-fax"></i>&nbsp;&nbsp; 020 67308700<br>
+	   </p>
+	   <p id="email"><i class="fa fa-envelope"></i>&nbsp;&nbsp; shi.communications@searshc.com
+	   </p>
+		   <p class="address">Please send your resumes to :<br>
+		   <i id="mail">SHIRecruitment@searshc.com</i>
+		   </p>
+	 </div>
+	 <div class="col-sm-8 form-group text-justify">
+	      <h3> Contact Information</h3>
+	     <form id="f1" onsubmit="return validate();" method="post">
+		   <label>Email: </label><br><input class="form-control" type="email" name="email" size="60" required/><br><br>
+		   <label>Name: </label><br><input type="text" class="form-control" name="name" size="60" required/><br><br>
+		   <label>Message: </label><br><textarea type="text1" class="form-control" name="text_box" rows="3" cols="62" required/></textarea><br><br>
+		   <button type="submit" style="padding:10px;">Submit</button>
+		   <span id="demo"> </span>
+		   <span id="demo1"> </span>
+	      </form>
+	 </div>
+	</div> 
+</footer>
+</body>
+</html>
